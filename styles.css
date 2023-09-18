@@ -1,202 +1,257 @@
-.html{
+.html {
     font-size: 62.5%;
     margin: auto;
 }
-.logo{
-    padding-top: 5px; 
+
+.logo {
+    padding-top: 5px;
 }
-.txt{
-font-family: 'Teko', sans-serif;
+
+.txt {
+    font-family: 'Teko', sans-serif;
 }
-.txt:hover{
-font-family: 'Teko', sans-serif; 
+
+.txt:hover {
+    font-family: 'Teko', sans-serif;
 }
-.page{
-height: 110%vh;
-width: 110%vw;
-margin-right: 10px;
+
+.page {
+    height: 110%vh;
+    width: 110%vw;
+    margin-right: 10px;
 }
-.redline{
-background-color: red;
-height: 1px;
-width: 100vw;
+
+.redline {
+    background-color: red;
+    height: 1px;
+    width: 100vw;
 }
-.name{
-margin-top: 150px;
-text-align: center;
+
+.name {
+    margin-top: 150px;
+    text-align: center;
 }
-.name h1{
- font-weight: 700;
- font-style: italic;
+
+.name h1 {
+    font-weight: 700;
+    font-style: italic;
 }
-h4{
+
+h4 {
     padding-left: 1.5rem;
 }
+
 /* typed effect */
-.container h1{
-align-items: center;
-justify-content: center;
-font-weight: 700;
+.container h1 {
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 }
-h4{
-margin-top: 250px;
-margin-left:35vw ;
+
+h4 {
+    margin-top: 250px;
+    margin-left: 35vw;
 
 }
-.btn1{
-margin: 40px;
-margin-right:80px; 
+
+.btn1 {
+    margin: 40px;
+    margin-right: 80px;
 }
+
 .btn.btn-danger {
-width: 250px; 
-height: 40px; 
-font-size: 18px;
-}
-.btn.btn-dark {
-width: 250px; 
-height: 40px; 
-font-size: 18px;
-}
-.arrow{
-margin-left: 56vw;
-margin-top: -122px;
-}
-.help{
-font-family: Satisfy, cursive;
-margin-left: 58vw;
-margin-top: 0vh;
-font-style: italic;
-transform: rotate(10deg);
-}
-.divider{
-height: 1px;
-width: 40vw;
-background-color: red;
-}
-.container1{
-margin-left: 6px;
-margin-top: 100px;
-font-family: 'Acme', sans-serif;
-}
-#about{
-padding-left: 16vw;
-padding-right: 14vw;
-justify-content: center;
-align-items: center;
-}
-#skills{
-margin-top: -10vh;
-padding-left: 16vw;
-padding-right: 14vw;
-justify-content: center;
-align-items: center;
-}
-#certificates{
-margin-top: -10vh;
-padding-left: 16vw;
-padding-right: 14vw;
-justify-content: center;
-align-items: center;
-}
-#projects{
-margin-top: -10vh;
-padding-left: 16vw;
-padding-right: 14vw;
-justify-content: center;
-align-items: center;
-}
-#contact{
-margin-top: -10vh;
-padding-left: 16vw;
-padding-right: 14vw;
-justify-content: center;
-align-items: center;
-}
-.html-logo{
-margin-left: 0px;
-padding-bottom: 10px;
-}
-.css-logo{
-margin-left: -10px;
-padding-bottom: 12px;
-}
-.c-logo{
-margin-left: 2px;
-padding-bottom: 5px;
-}  
-.cp-logo{
-margin-left: 2px;
-padding-bottom: 5px;
-}  
-.java-logo{
-margin-left: 2px;
-padding-bottom: 5px;
-}
-.python-logo{
-margin-left: 2px;
-padding-bottom: 5px;
-}
-.and-logo{
-margin-left: 2px;
-padding-bottom: 5px;
-}
-.boot-logo{
-margin-left:-8px;
-padding-bottom: 5px;
-} 
-.ctouch{
-margin-left: 22vw;
-margin-bottom: 5px;
-}
-.mail{
-margin-top:20px;
-margin-left:40px;
-}
-.conlogo{
-margin-top:2%;
-margin-left:70px;
-}
-.card-footer{
-height: 55px;
-width: 100.6%;
-}
-.card-footer h6{
-margin-left: 50%vw;
-margin-right:50%vw;
-text-align: center;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
 }
 
-@media(max-width:998px)     
-{
-    html{
-        font-size:55%
+.btn.btn-dark {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.arrow {
+    margin-left: 56vw;
+    margin-top: -122px;
+}
+
+.help {
+    font-family: Satisfy, cursive;
+    margin-left: 58vw;
+    margin-top: 0vh;
+    font-style: italic;
+    transform: rotate(10deg);
+}
+
+.divider {
+    height: 1px;
+    width: 40vw;
+    background-color: red;
+}
+
+.container1 {
+    margin-left: 6px;
+    margin-top: 100px;
+    font-family: 'Acme', sans-serif;
+}
+
+#about {
+    padding-left: 16vw;
+    padding-right: 14vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills {
+    margin-top: -10vh;
+    padding-left: 16vw;
+    padding-right: 14vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#certificates {
+    margin-top: -10vh;
+    padding-left: 16vw;
+    padding-right: 14vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects {
+    margin-top: -10vh;
+    padding-left: 16vw;
+    padding-right: 14vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    margin-top: -10vh;
+    padding-left: 16vw;
+    padding-right: 14vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.html-logo {
+    margin-left: 0px;
+    padding-bottom: 10px;
+}
+
+.css-logo {
+    margin-left: -10px;
+    padding-bottom: 12px;
+}
+
+.c-logo {
+    margin-left: 2px;
+    padding-bottom: 5px;
+}
+
+.cp-logo {
+    margin-left: 2px;
+    padding-bottom: 5px;
+}
+
+.java-logo {
+    margin-left: 2px;
+    padding-bottom: 5px;
+}
+
+.python-logo {
+    margin-left: 2px;
+    padding-bottom: 5px;
+}
+
+.and-logo {
+    margin-left: 2px;
+    padding-bottom: 5px;
+}
+
+.boot-logo {
+    margin-left: -8px;
+    padding-bottom: 5px;
+}
+
+.ctouch {
+    margin-left: 22vw;
+    margin-bottom: 5px;
+}
+
+.mail {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.conlogo {
+    margin-top: 2%;
+    margin-left: 70px;
+}
+
+.card-footer {
+    height: 55px;
+    width: 100.6%;
+}
+
+.card-footer h6 {
+    margin-left: 50%vw;
+    margin-right: 50%vw;
+    text-align: center;
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 55%
     }
 }
-@media(max-width:768px)     
-{
-    html{
-        font-size:45%
+
+@media(max-width:768px) {
+    html {
+        font-size: 45%
     }
 }
-@media(max-width:412px)     
-{
-    html{
+
+@media(max-width:412px) {
+    html {
         margin-left: -8rem;
         margin-right: -8rem;
-        }
-    .btn.btn-danger ,.btn.btn-dark{
-            margin-left: -10rem;
-            }
-    h4{
+    }
+
+    .btn.btn-danger,
+    .btn.btn-dark {
+        margin-left: -10rem;
+    }
+
+    h4 {
         margin-left: 24rem;
     }
-    .ctouch h1{
-        margin-left:4rem;
-        } 
-    .mail{
-        margin-left:6rem;
-        } 
-    .conlogo{
-            margin-left:2rem;
-     }
+
+    .ctouch h1 {
+        margin-left: 4rem;
+    }
+
+    .mail {
+        margin-left: 6rem;
+    }
+
+    .conlogo {
+        margin-left: 2rem;
+    }
+}
+
+@media(max-width:487px) {
+ .btn-dark,.btn-danger{
+    margin-left: -9rem;
+ }
+ .conlogo {
+    margin-left: 0rem;
+ }
+ .page{
+    margin-left: -6rem;
+    margin-right: 1rem;
+    padding-left: 0px;
+    padding-right: 0px;
+ }
 }
